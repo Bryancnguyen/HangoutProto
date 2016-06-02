@@ -1,0 +1,18 @@
+/* Link Colors #2980b9 */
+.nav-tabs > li > a
+{
+    color: #27ae60;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+
+
+h1
+{
+    padding-top: 20%;
+    font-size: 80px;
+    color: #27ae60;
+    letter-spacing: 4px;
+    font-family: 'Lato', 'Arial', sans-serif;
+    
+}

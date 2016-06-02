@@ -1,15 +1,16 @@
 var express = require('express');
 var app = express();
-var port = process.env.PORT || 1200;
+var router = express.Router();
+//var port = process.env.PORT || 1200;
 
 
-app.use('/assets', express.static(__dirname + '/public'));
-app.use('/', function(req, res)
+app.use(express.static('public'));
+app.get('/', function(req, res)
 {
-   res.send('Hello World no'); 
+   res.sendFile('./public/index.html');
 });
-app.set('view engine', 'ejs');
-app.listen(port, function()
+
+app.listen(5000, function()
 {
     console.log('App is running');
 });

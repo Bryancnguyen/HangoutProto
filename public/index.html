@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="bryansApp">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Hang10 </title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="utf-8">
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            html, body, input, select, textarea
+            {
+                font-size: 1.05em !important;
+            }
+            </style>
+             <!-- load angular via CDN -->
+        <script src="//code.angularjs.org/1.5.0-rc.2/angular.min.js"></script>
+        <script src="//code.angularjs.org/1.5.0-rc.2/angular-route.min.js"></script>
+        <script src="//code.angularjs.org/1.5.0-rc.2/angular-resource.min.js"></script>
+        </head>
+        <body>
+            <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.12.10.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+            <header>
+			<nav class="navbar navbar-default">
+			
+				<ul class="nav nav-tabs nav-justified">
+                    
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fa fa-experience"></i> Login</a></li>
+                    <li><a href="#"><i class="fa fa-education"></i> Sign Up</a></li>
+                    <li><a href="#"><i class="fa fa-projects"></i> About</a></li>
+				</ul>
+			
+			</nav>
+		</header>
+        <div class="text-center">
+        <h1>Hang10</h1>
+            </div>
+        <div class="container">
+
+            <div ng-view></div>
+
+		</div>
+            </body>
+            </html>
+            
