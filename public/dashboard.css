@@ -1,0 +1,30 @@
+.nav-tabs > li > a
+{
+    color: #27ae60;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+form
+{
+    float: none;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    font-family: 'Lato', 'Arial', sans-serif;
+    width: 50%;
+    background-color: lightyellow!important;
+}
+
+.page-header
+{
+    padding-top: 5%;
+    color: #27ae60;
+    font-family: 'Lato', 'Arial', sans-serif;
+    text-align: center;
+    /*background-image: url("http://hdwallnpics.com/wp-content/gallery/background-images-for-html/back_ground.jpg");*/ 
+}
+
+body
+{
+    background-color:aliceblue !important;
+}
